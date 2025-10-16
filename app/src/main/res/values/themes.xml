@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- The original base style name other code expects (provides compatibility) -->
+    <style name="Base.Theme.Assignment2BParveenMaan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/tdl_primary</item>
+        <item name="colorOnPrimary">@color/tdl_onPrimary</item>
+        <item name="android:colorBackground">@color/tdl_bg</item>
+        <item name="colorOnBackground">@color/tdl_text</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.TDL.M3.Alert</item>
+    </style>
+
+    <style name="Base.Theme.ExpenseTrackerPro_Maan" parent="Base.Theme.ExpenseTrackerPro_Maan" tools:ignore="ResourceCycle" />
+
+    <style name="Theme.ExpenseTrackerPro_Maan" parent="Base.Theme.Assignment2BParveenMaan">
+    </style>
+
+    <style name="Widget.TDL.TopAppBar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Material3.TitleLarge</item>
+    </style>
+
+    <style name="Widget.TDL.MaterialCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.MediumComponent</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Widget.TDL.Button" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">8dp</item>
+        <item name="android:insetBottom">8dp</item>
+    </style>
+
+    <style name="ThemeOverlay.TDL.M3.Alert" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.LargeComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Material3.MediumComponent</item>
+    </style>
+</resources>

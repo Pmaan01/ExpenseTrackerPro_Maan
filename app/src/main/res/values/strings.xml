@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ExpenseTrackerPro</string>
+    <string-array name="categories_array">
+        <item>Food &amp; Dining</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Health &amp; Fitness</item>
+        <item>Travel</item>
+        <item>Education</item>
+        <item>Insurance</item>
+        <item>Rent &amp; Mortgage</item>
+        <item>Personal Care</item>
+        <item>Gifts &amp; Donations</item>
+        <item>Savings &amp; Investments</item>
+        <item>Miscellaneous</item>
+    </string-array>
+</resources>

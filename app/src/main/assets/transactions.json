@@ -1,0 +1,4 @@
+[
+  {"id":"1","title":"Groceries","category":"Food & Dining","amount":35.99,"date":"2025-04-24T10:00:00Z","description":"Weekly grocery","receiptPath":null,"isFavorite":false},
+  {"id":"2","title":"Taxi Fare","category":"Transportation","amount":12.00,"date":"2025-04-23T09:00:00Z","description":"Ride to work","receiptPath":null,"isFavorite":true}
+]
